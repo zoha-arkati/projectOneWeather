@@ -1,13 +1,12 @@
 {
   "name": "my_project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small browser weather app powered by OpenWeatherMap.",
   "license": "ISC",
-  "author": "",
   "type": "module",
   "main": "projectOneWeather.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "weather:terminal": "node projectOneWeather.js"
   },
   "dependencies": {
     "axios": "^1.20.0",
